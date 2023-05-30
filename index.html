@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kailash T V</title>
+    <link rel="icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/3b39c1ab80.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/logo.png" alt="Logo" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="#services">Services</a></li> -->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-sharp fa-solid fa-xmark" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Fullstack Developer</p>
+                <h1>Hello World, this is <span class="tooltip name">Kailash
+                        <span class="tooltiptext">"Lord Shiva's Paradise"</span>
+                    </span> <br> from Chintamani, India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ------about------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/user.jpg" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>
+                        Hi there! I'm <span class="name">Kailash T V</span>, a passionate full stack developer with 2+
+                        years of experience. I build
+                        robust and user-friendly web applications that solve real-world problems.
+                    </p><br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')" id="skills-tab">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')" id="experience-tab">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')" id="education-tab">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Development</span><br>I have a strong proficiency in front-end
+                                development, using a combination of HTML, CSS, JavaScript, TypeScript, and React.js. I
+                                specialize in creating dynamic and interactive user interfaces that deliver a seamless
+                                user experience.</li>
+                            <li><span>Backend Development</span><br>With a strong background in backend development, I
+                                am proficient in utilizing technologies such as .NET and C# to build robust
+                                and scalable web applications. I have extensive experience in developing RESTful APIs
+                                and working with databases using frameworks like ASP.NET and Entity Framework.</li>
+                            <li><span>Cloud Technology</span><br>I have experience working with various cloud
+                                technologies, including Amazon Web Services.I have utilized AWS services to build
+                                scalable and reliable web applications.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Software Engineer @ Cimpress</span><br>Currently in my tenure as a Software
+                                Engineer at
+                                Cimpress
+                                Technology, I am gaining valuable experience working in a dynamic and innovative
+                                environment, collaborating with talented professionals to develop cutting-edge software
+                                solutions.</li>
+                            <li><span>Artificial Intelligence Intern @ Tequed Labs</span><br>As an Artificial
+                                Intelligence intern at
+                                Tequed Labs, I had the opportunity to delve into the fascinating world of AI, applying
+                                machine learning algorithms and techniques to solve complex
+                                problems and optimize processes. It was a rewarding experience that allowed me to
+                                enhance my skills in AI while gaining practical industry knowledge.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bachelor's in Computer Science</span><br>I completed my Bachelor's in Computer
+                                Science Engineering from R N S Institute of Technology - Bengaluru, where I gained a
+                                strong
+                                foundation in computer science principles and acquired a comprehensive understanding of
+                                various programming languages, data structures, algorithms, and software development
+                                methodologies.</li>
+                            <li><span>12th Standard</span><br>During my 12th standard education at Vision PU College -
+                                Bengaluru, I
+                                had the opportunity to delve into various subjects, including mathematics, physics,
+                                chemistry, and biology. Though I was not in Computer Science domain, I had developed a
+                                liking towards new technologies in general.</li>
+                            <li><span>10th Standard</span><br>I did my 10th standard from Kishor Vidya Bhavana -
+                                Chintamani.The problem-solving and logical thinking skills I acquired during my high
+                                schooling education continue to serve as valuable assets in my pursuit of a career in
+                                the
+                                field of computer science.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------services---------- -->
+    <!-- <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Will do web designs for you.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Will do web designs for you.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Will do web designs for you.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+
+        </div>
+    </div> -->
+    <!-- ----------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Created a social media app</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Created a social media app</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Shopping App</h3>
+                        <p>Created a social media app</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- ----------cotact---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>kailashtalanki@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91-9900348034</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Kailash's Resume.pdf" download class="btn btn-2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form id="submit-form">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your E-mail" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn-2">Submit</button>
+                    </form>
+                    <div id="loading-container">
+                        <div class="loading-icon"></div>
+                    </div>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>Copyright © <span class="name">Kailash</span>. Made with <i class="fa-solid fa-heart"></i> by Kailash.
+            </p>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
