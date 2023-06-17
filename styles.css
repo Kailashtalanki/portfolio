@@ -1,5 +1,5 @@
 :root {
-    --mainColor: #D14D72;
+    --mainColor: #657DF5;
 }
 
 * {
@@ -21,9 +21,6 @@ body {
 #header {
     width: 100%;
     height: 100vh;
-    background-image: url(images/kailash.png);
-    background-size: cover;
-    background-position: center;
 }
 
 .logo {
@@ -103,12 +100,11 @@ nav img:hover {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 300px;
+    width: 320px;
     position: absolute;
     z-index: 1;
-    bottom: 80%;
-    left: 14%;
-    margin-left: -60px;
+    top: 30%;
+    margin-left: 10px;
     opacity: 0;
     transition: opacity 0.3s;
     font-size: 25px;
@@ -194,7 +190,7 @@ nav img:hover {
 }
 
 .tab-contents ul li span {
-    color: #FFABAB;
+    color: #7b8bd9;
     font-size: 14px;
 }
 
@@ -425,10 +421,6 @@ nav .fas {
 }
 
 @media only screen and (max-width: 600px) {
-    #header {
-        background-image: url("./images/kailash\ -\ phone.png");
-    }
-
     .header-text {
         margin-top: 100%;
         font-size: 16px;
@@ -499,8 +491,7 @@ nav .fas {
     }
 
     .tooltip .tooltiptext {
-        left: 40%;
-        font-size: 15px;
+        display: none;
     }
 }
 
