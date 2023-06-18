@@ -1,13 +1,5 @@
 # Portfolio Website
-
 This is a simple portfolio website showcasing the work and information of Kailash T V.
-## Table of Contents
-
-- [Portfolio Website](#portfolio-website)
-  - [Table of Contents](#table-of-contents)
-  - [Description](#description)
-  - [Features](#features)
-  - [Installation](#installation)
 
 ## Description
 
