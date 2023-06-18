@@ -85,12 +85,8 @@ nav img:hover {
 }
 
 .header-text .name {
-    font-size: 65px;
+    font-size: 50px;
     transition: transform 0.5s;
-}
-
-.header-text .name:hover {
-    transform: translateY(-10px);
 }
 
 .tooltip {
@@ -103,7 +99,7 @@ nav img:hover {
     width: 320px;
     position: absolute;
     z-index: 1;
-    top: 30%;
+    top: 40%;
     margin-left: 10px;
     opacity: 0;
     transition: opacity 0.3s;
@@ -354,6 +350,11 @@ nav img:hover {
     font-size: 25px
 }
 
+.hideAProperties {
+    color: inherit;
+    text-decoration: none;
+}
+
 .social-icons {
     margin-top: 30px;
 }
@@ -414,6 +415,10 @@ form .btn-2 {
     color: var(--mainColor);
 }
 
+.copy-right i:hover {
+    transform: translateY(-10px);
+}
+
 /* ----------css for responsiveness---------- */
 
 nav .fas {
@@ -427,7 +432,7 @@ nav .fas {
     }
 
     .header-text h1 {
-        font-size: 30px;
+        font-size: 1px;
     }
 
     nav .fas {
@@ -496,7 +501,7 @@ nav .fas {
 }
 
 #msg {
-    color: #61b752;
+    color: var(--mainColor);
     margin-top: -40px;
     display: block;
 }
