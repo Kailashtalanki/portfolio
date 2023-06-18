@@ -1,4 +1,5 @@
 # Portfolio Website
+This is a simple portfolio website showcasing the work and information of Kailash T V.
 
 ## Description
 
