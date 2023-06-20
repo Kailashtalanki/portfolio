@@ -19,7 +19,7 @@ function closeMenu() {
     sideMenu.style.right = "-200px";
 }
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbzLvX_PiMgg4gisdCRS4f5AdAGqYvTgKjrirxqDdrs2Z3nB7-tllBYMK1Q6uuQYtp49/exec';
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwT6FrB9xzBwyZ4XGqIgc5NvfUJD3XyOWyVeZp89wx3dyrUs2JNVxI5yOZpsHi-LPnL/exec';
 const msg = document.getElementById('msg');
 const form = document.getElementById('submit-form');
 const loadingContainer = document.getElementById('loading-container');
