@@ -10,13 +10,16 @@ function openTab(tabName) {
 }
 
 const sideMenu = document.getElementById("sidemenu");
+var menuButton = document.getElementById("bars");
 
 function openMenu() {
     sideMenu.style.right = "0";
+    menuButton.style.zIndex = "0";
 }
 
 function closeMenu() {
     sideMenu.style.right = "-200px";
+    menuButton.style.zIndex = "999";
 }
 
 const scriptURL = 'https://script.google.com/macros/s/AKfycbybuf5ewgDSX_MYH5vAgIUSZZmM-uaUtEdXbe4J5M3cYa0JRKM6Tvh_tBwgKWQzsOoP/exec';

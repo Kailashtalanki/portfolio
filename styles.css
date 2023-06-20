@@ -396,6 +396,7 @@ nav .fas {
         right: 20px;
         font-size: 25px;
         margin-right: 10px;
+        z-index: 999;
     }
 
     nav ul {
